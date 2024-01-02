@@ -1,0 +1,24 @@
+:root {
+    --color-calro:#f3f3f3;
+    --color-darkblue:#1b1b32;
+    --color-darkblue-alpha: rgba(27,27,50, 0.8);
+    --color-verde:#37af65;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.Heading{
+    background-color: var(--color-darkblue);
+    color: var(--color-calro);
+    height: 150px;
+    padding: 20px;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

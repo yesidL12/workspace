@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css"  rel="stylesheet">
+    <title>Formulario de Encuesta</title>
+</head>
+<body>
+
+    <div class="container">
+        <section class="Heading">
+            <h1 id="title" class="text-center">Formulario de Encuesta</h1>
+            <p id="description" class="text-center">Gracias por tomarte de realizar nuestra encuesta</p>
+        </section>
+        
+        <section class="formulario">
+            <form id="surver-form">
+                <!--labels-->
+                <div class="form-group">
+                    <label for="name">Nombre <input class="form-control" id="name" type="text" required placeholder="Ingresa tu Nombre"></label>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email <input class="form-control" id="email" type="email" required placeholder="Ingresa tu Email"></label>
+                </div>
+    
+                <div class="form-group">
+                    <label for="number">Age <span>(optional)</span><input class="form-control" type="number" id="number" required placeholder="Ingresa tu Edad"> </label>
+                </div>
+    
+    
+                <!--Selector-->
+                <div class="form-group">
+                    <p class="text-center">¿Cual opción te describe mejor?</p>
+                    <select id="dropdown">
+                        <option>Seleccionar Rol</option>
+                        <option>Trabajo Tiempo Completo</option>
+                        <option>Trabajo Medio Tiempo</option>
+                        <option>Estudiante</option>
+                        <option>Prefiere No Decir</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+    
+                <!--Radio options-->
+                <div class="form-group">
+                    <p  class="text-center">¿Nos recomendarias?</p>
+                    <label>
+                        <input type="radio" name="user-recommend" value="definitely"  class="input-radio"> Definitivamente
+                    </label>
+    
+                    <label>
+                        <input type="radio" name="user-recommend" value="maybe"  class="input-radio"> Tal Vez
+                    </label>
+    
+                    <label>
+                        <input type="radio" name="user-recommend" value="no"  class="input-radio"> NO
+                    </label>
+                </div>
+
+                <!--CheckBox-->
+                <div class="form-group">
+                    <p class="text-center">¿Qué te gustaría ver mejorado?</p>
+                    <label>
+                        <input type="checkbox" name="prefer" value="front-end-projects" class="input-checkbox">
+                        front-end projects
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="back-end-projects" class="input-checkbox">
+                        Back-end projects
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="data-visualization" class="input-checkbox">
+                        Data Visualization
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="challenges" class="input-checkbox">
+                        challenges
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="open-sources-community" class="input-checkbox">
+                        Open Source Community
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="gitter-help-rooms" class="input-checkbox">
+                        Gitters Help rooms
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="videos" class="input-checkbox">
+                        Videos
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="city-meetups" class="input-checkbox">
+                        City Meetups
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="wiki" class="input-checkbox">
+                        Wiki
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="forum" class="input-checkbox">
+                        Forum
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prefer" value="additional-courses" class="input-checkbox">
+                        Additional Courses
+                    </label>
+                </div>
+
+                <!--TextArea-->
+                <div class="form-group">
+                    <p>Comentarios o Sugerengias</p>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Ingresa tu comentario aqui..."></textarea>
+                </div>
+
+                <!--Boton Submit-->
+                <div class="form-group">
+                    <button type="submit" class="submit-buttun">Submit</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
