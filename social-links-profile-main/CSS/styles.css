@@ -1,0 +1,75 @@
+
+
+body{
+    background-color: hsl(0, 0%, 8%) ;
+}
+.container{
+    background-color:hsl(0, 0%, 12%) ;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 10%;
+    padding: 3%;
+    
+}
+
+
+
+@media (max-width: 769px) {
+    .container{ 
+    margin-top:10% ;
+    margin-left:5% ;
+    margin-right:5% ;
+    margin-bottom: 10%;
+    }
+}
+
+img{
+    display: block;
+    width: 30%;
+    margin:auto;
+    border-radius: 100%;
+    
+}
+
+.nombre, p{
+    color:white;
+    text-align: center;
+}
+
+.nombre{
+    font-size: 25px;
+}
+.ubicacion{
+    color:hsl(75, 94%, 57%) ;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.github{
+    color: white;
+    text-align: center;
+    background-color:hsl(0, 0%, 20%);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.frontend,.linkedin, .twitter, .instagram {
+    color: white;
+    text-align: center;
+    background-color:hsl(0, 0%, 20%);
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+

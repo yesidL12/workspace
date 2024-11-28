@@ -1,0 +1,108 @@
+:root{
+    --primario-Dark_cyan: hsl(158, 36%, 37%);
+    --primario-Cream: hsl(30, 38%, 92%);
+
+    --neutral-Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+    --Fuente-principal: 'Montserrat';
+    --fuente-secundaria:'fraunces';
+}
+
+body{
+    background-color: var(--primario-Cream);
+}
+
+h1{
+    font-family: var(--fuente-secundaria);
+    font-weight: 700;
+    font-size: 34px;
+}
+
+p{
+    font-family: var(--Fuente-principal); 
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.perfume{
+    text-transform: uppercase;
+    color: var(--Dark-grayish-blue);
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:var(--White);
+    margin: 10% 34% 10% 34%;
+    border-radius: 10px;
+}
+.izquierda{
+    margin: 15px;
+}
+
+img{
+    width: auto;
+    flex-grow: 1;
+    height:500px;
+    border-radius: 10px 0 0 10px;
+}
+
+.izquierda p{
+    width: 100%;
+    color: var(--Dark-grayish-blue);
+    font-family: var(--Fuente-principal);
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+.titulo{
+    width: auto;
+    margin-right: 40px;
+
+}
+
+.descripcion{
+    width: auto;
+    margin-right: 80px;
+}
+
+.precio{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.precio-descuento{
+    color: var(--primario-Dark_cyan);
+    font-family: var(--fuente-secundaria);
+    font-weight:700;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.precio-original{
+    font-family: var(--Fuente-principal);
+    justify-content: right;
+    text-decoration: line-through;
+    margin-right: 100px;
+}
+
+.boton{
+    display: flex;
+    color: var(--White);
+    font-family: var(--Fuente-principal);
+    background-color: var(--primario-Dark_cyan);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content:center;
+}
+
+svg{
+    margin-right: 5px;
+}
