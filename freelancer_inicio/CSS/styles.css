@@ -22,3 +22,36 @@ body{
 .titulo span{
     font-size: 2rem;
 }
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-background{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+   padding: 1rem; /*Del elemento hacía adentro*/
+   display: flex;
+   /* flex-direction: column; */
+   /* align-items: center; Alinea el contenido verticalmente */
+   justify-content: space-between; /*Alinea el contenido horizontalmente*/
+}
+
+/*
+<-------- Los 2 ejes de flexbox --------->
+Solo puedes colocar los elementos en una dirección
+-- fila (row), 0
+-- columna (column).
+*/
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+/*
+-Display: block: ==> Siognifa que todo el contenido se va a organizar uno encima de otro
+
+-Display: Inline: ==> Significa que el contenido se pocisionará a la derecha una vez haya tomado todo el espacio que requiere.*/
