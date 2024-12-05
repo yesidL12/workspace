@@ -1,0 +1,145 @@
+:root{
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+
+    --White: hsl(0, 0%, 100%);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Slightly-transparent-white-2: hsla(0, 0%, 100%, 0.6);
+
+    --inter: "inter";
+    --Lexend-Deca:"lexend deca";
+}
+
+html{
+    font-size: 62.6%;
+    
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--Very-dark-blue);
+}
+
+.container{
+    display:grid;
+    background-color: var(--Dark-desaturated-blue);
+    margin-top: 20rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 20rem;
+    border-radius: 1rem;
+   
+}
+
+@media (min-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 30rem;
+        margin-right: 40rem;
+        margin-left: 45rem;
+    }
+}
+
+.img_desktop{
+    display: none;
+}
+
+ .imagen .img_mobile{
+    max-width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+@media (min-width: 768px) {
+    .img_mobile{
+        display: none;
+    }
+    .imagen{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .img_desktop{
+        display: flex;
+        border-radius: 0 1rem 1rem 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .main{
+        display: grid;
+    }
+}
+.titulo{
+    font-family: var(--inter);
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    margin: 1rem 4rem;
+}
+span{
+    color: var(--Soft-violet);
+}
+
+@media (min-width: 768px) {
+    .titulo{
+        margin-top:7rem;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        text-align: start;
+    }
+}
+
+p{
+    color:var(--Slightly-transparent-white-2);
+    text-align: center;
+    font-family: var(--Lexend-Deca);
+    font-size: 1.5rem;
+    margin: 0 3.5rem
+
+}
+
+@media (min-width: 768px) {
+    p{
+        text-align: start;
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+}
+
+.container_list{
+    text-align: center;
+    max-width: 100%;
+}
+
+.numero{
+    color: var(--White);
+    font-family: var(--inter);
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.info{
+    color: var(--Slightly-transparent-white-2);
+    font-family: var(--Lexend-Deca);
+    text-transform: uppercase;
+    margin-bottom: 3.5rem;
+}
+
+.numero, .info{
+    margin-right: 10rem;
+}
+
+@media (min-width: 768px) {
+    .container_list{
+        display: flex;
+        text-align:center;
+    }
+
+    .numero, .info{
+        margin-right:-1rem ;
+        margin-left: -3rem;
+    }
+}
