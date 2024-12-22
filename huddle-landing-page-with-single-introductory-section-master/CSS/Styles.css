@@ -1,0 +1,100 @@
+:root{
+    /*Primary Colors*/
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+
+    /*Fuente*/
+    --Fuente-heading: 'Poppins', sans-serif;
+    --feunte-body: 'Open Sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    margin: -1.5rem;
+    background-color: var(--Violet);
+}
+
+.container{
+    background-color: var(--Violet); 
+}
+.header{
+    display: grid;
+    
+}
+
+.logo{
+    width: 13rem; 
+    height: auto; 
+    margin-top: -37rem;
+    margin-left: 8rem;
+}
+
+.img-ilustracion{
+    margin-top: -30rem;
+    width: 70%; /* Reduce el tamaño de la imagen a la mitad */
+    height: auto; 
+    object-fit: cover; 
+    display: block; /* Asegura que las propiedades de margen funcionen correctamente */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+
+.img  {
+    width: 100%; /* Reduce el tamaño de la imagen a la mitad */
+    height: auto; 
+    object-fit:cover; 
+    display: block; /* Asegura que las propiedades de margen funcionen correctamente */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+    margin-bottom: 2rem;
+}
+
+.titulo{
+    width: 77%;
+    text-align: center;
+    color: white;
+    font-family: var(--feunte-body);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5rem;
+}
+
+.parrafo{
+    font-family: var(--feunte-body);
+    color: white;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.boton{
+    padding: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: block; /* Asegura que las propiedades de margen funcionen correctamente */
+    margin-left: auto; /* Centra el botón horizontalmente */
+    margin-right: auto; /* Centra el botón horizontalmente */
+    border-radius: 1.8rem;
+    color: var(--Violet);
+    margin-top: 3rem;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+    color: white;
+}
+
+
+.iconos svg {
+    border-radius: 50%; /* Bordes redondos */
+    background-color: transparent; /* Fondo transparente */
+    border: 1px solid white; /* Borde blanco */
+    padding: 1rem; /* Espacio interno */
+}
