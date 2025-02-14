@@ -100,4 +100,4 @@ for num in range (1, 10):
     elif num % 3 == 0:
         print("Buzz")
     else:
-        print("No coincide")
+        print(num)
