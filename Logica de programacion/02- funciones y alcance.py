@@ -122,7 +122,8 @@ helloPhyton()
 Extra
 '''
 
-def ejercicio(str1, str2):
+def ejercicio(str1, str2) -> int:
+    contador = 0
     for i in range(1, 101):
         if i % 3 == 0 and i % 5 == 0:
             print(str1 + str2)
@@ -132,5 +133,7 @@ def ejercicio(str1, str2):
             print(str2)
         else:
             print(i)
+            contador += 1
+    return contador
         
-ejercicio("yesid", "Londoño")
+print(ejercicio("fizz", "Buzz"))
