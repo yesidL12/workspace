@@ -7,12 +7,13 @@ Si se invoca la función sin pasarle el porcentajeje de
 IVa, deberá aplicar un 21%
 '''
 
-def calculaIva(precioNeto, iva) -> int:
+def calculaIva():
+    precioNeto = int(input("Ingrese el valor neto a pagar:"))
+    iva = float(input("Ingrese el porcentaje de iva a cobrar:"))
 
-    if precioNeto > 0 and iva > 0:
-        print( (precioNeto * iva) + precioNeto)
+    if iva > 0:
+        print((precioNeto * iva) + precioNeto)
     else:
-        print ( (precioNeto * 0.21) + precioNeto)
-    
-calculaIva(1000,0)
-calculaIva(1000, 0.16)
+        print((precioNeto * 0.21) + precioNeto)
+
+calculaIva()
