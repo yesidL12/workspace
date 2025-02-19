@@ -5,6 +5,6 @@ de combustible que consumió durante ese recorrido. Mostrar el consumo
 de combustible por kilómetro.
 '''
 
-kilometros = int(input("Ingresa la cantidad de kilometros recorridos, por favor"))
-litros = float(input("Ingresa la cantidad de combustible consumido, por favor..."))
-print(f"Tú consumo de combustible por kilometro fue de : {kilometros / litros}")
+kilometros = int(input("Ingresa la cantidad de kilometros recorridos, por favor... "))
+litros = float(input("Ingresa la cantidad de combustible consumido, por favor... "))
+print(f"Tú consumo de combustible por kilometro fue de: {kilometros / litros} litros.")
